@@ -117,7 +117,7 @@ function draw(){
     text(score,width/2,height/8)
     textSize(16)
     text(`HS : ${hs}`,width/2 + 100,height/9)
-    text('RTRY',width/2 - 100,height/9)
+    text('RETRY',width/2 - 100,height/9)
 }
 
 function mouseClicked(){
