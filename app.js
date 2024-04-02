@@ -137,7 +137,6 @@ function render(){
         location.reload()
     }
     else{
-        console.log('PRESSED');
         bricks[bricks.length - 1].moving = false
         bricks.forEach(e => {
             e.downs = true
